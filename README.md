@@ -24,7 +24,14 @@
 
 <details><summary>Click Here!</summary>
 
-
+| specification | input | output |
+| :------------ | :---- | :----- |
+| IsTriangle |||
+| should return true if all sides of triangle are equal | (2, 2, 2) | true |
+| should return false if all sides of triangle are equal | (1, 2, 2) | true |
+| should return true if 2 sides of triangle are equal | (3,3,6) | true |
+| should return false if no sides are equal | (1,2,3) | true |
+| should check if the sides can create a triangle | (1,1,3 | false |
 
 </details>
 
